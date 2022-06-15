@@ -1,2 +1,6 @@
 - Tela de loading pronta.
 - Primeira tela em andamento.
+- Implementação da transição de telas.
+- Criado a tela de Menu.
+- Criado tela de Login.
+- Criado tela About.

@@ -15,7 +15,7 @@ export default function App() {
       <StatusBar />
 
       <NavigationContainer>
-        <Tab.Navigator>
+        <Tab.Navigator screenOptions={{ headerShown: false }}>
           <Tab.Screen name="Menu" component={Menu}/>
           <Tab.Screen name="About" component={About} />
           <Tab.Screen name="Login" component={Login} />

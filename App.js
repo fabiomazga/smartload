@@ -7,6 +7,7 @@ import About from "./src/telas/About";
 import Login from "./src/telas/Login";
 import RegisterAthelete from "./src/telas/RegisterAthlete";
 import Frequency from "./src/telas/Frequency";
+import LoadingAthlete from "./src/telas/LoadingAthlete";
 
 const Tab = createBottomTabNavigator();
 
@@ -22,6 +23,7 @@ export default function App() {
           <Tab.Screen name="Login" component={Login} />
           <Tab.Screen name="Registrer Athlete" component={RegisterAthelete} />
           <Tab.Screen name="Select Frequency" component={Frequency} />
+          <Tab.Screen name="Loading Athlete" component={LoadingAthlete} />
         </Tab.Navigator>        
       </NavigationContainer>      
       

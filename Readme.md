@@ -1,4 +1,4 @@
-- Telas desenvolvidas seguindo o design explícito aqui: https://miro.com/app/board/uXjVOWtYp7o=/
+- Telas desenvolvidas seguindo o design oferecido aqui: https://miro.com/app/board/uXjVOWtYp7o=/
 
 
 

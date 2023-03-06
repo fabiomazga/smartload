@@ -8,6 +8,12 @@ import Login from "./src/telas/Login";
 import RegisterAthelete from "./src/telas/RegisterAthlete";
 import Frequency from "./src/telas/Frequency";
 import LoadingAthlete from "./src/telas/LoadingAthlete";
+import ExternalWeight from "./src/telas/ExternalWeight";
+import VerticalJump from "./src/telas/VerticalJumps";
+import WriteComment from "./src/telas/WriteComment";
+import Save from "./src/telas/Save";
+import GraphicTable from "./src/telas/GraphicTable";
+import GraphicJump from "./src/telas/GraphicJump";
 
 const Tab = createBottomTabNavigator();
 
@@ -24,7 +30,13 @@ export default function App() {
           <Tab.Screen name="Registrer Athlete" component={RegisterAthelete} />
           <Tab.Screen name="Select Frequency" component={Frequency} />
           <Tab.Screen name="Loading Athlete" component={LoadingAthlete} />
-        </Tab.Navigator>        
+          <Tab.Screen name="External Weight" component={ExternalWeight} />
+          <Tab.Screen name="Vertical Jump" component={VerticalJump} />
+          <Tab.Screen name="Write Comment" component={WriteComment} /> 
+          <Tab.Screen name="Save" component={Save} />
+          <Tab.Screen name="Graphic Table" component={GraphicTable} />
+          <Tab.Screen name="Graphic Jump" component={GraphicJump} />
+        </Tab.Navigator>         
       </NavigationContainer>      
       
     </SafeAreaView>
